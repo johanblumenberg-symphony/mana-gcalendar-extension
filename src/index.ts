@@ -9,14 +9,6 @@ export default class Extension implements interfaces.extension.ITrustedExtension
     private rail!: interfaces.rail.IRail;
 
     public async init() {
-        let railIcon = new RailIconView();
-
-        this.rail.register({
-            name: 'Google Calendar',
-            isActive: false,
-            open: () => undefined,
-            close: () => undefined,
-            getIconView: () => railIcon.renderer,
-        });
+        this.rail.register(new RailIconView());
     }
 }

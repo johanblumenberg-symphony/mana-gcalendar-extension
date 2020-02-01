@@ -1,13 +1,18 @@
 import { interfaces, uiComps } from '@mana/extension-lib';
-import { RailIconProps, RailIconActions, RailIcon } from './renderer/RailIcon';
+import RailIcon, { RailIconProps, RailIconActions } from './renderer/RailIcon';
+import { GoogleCalendarView } from './GoogleCalendarView';
 
-export const { BaseView } = interfaces;
-
-export class RailIconView extends BaseView {
+export class RailIconView implements interfaces.rail.IRailItem {
     public renderer: interfaces.view.ReactRenderer;
 
+    public name = 'Google Calendar';
+    public isActive = false;
+    public exclusive = false;
+
+    @interfaces.injectInterface(interfaces.Symbols.IModal)
+    private modal!: interfaces.modal.IModal;
+
     constructor() {
-        super();
         this.renderer = uiComps.createReactRenderer<RailIconProps, RailIconActions>(this, RailIcon);
     }
 
@@ -17,5 +22,20 @@ export class RailIconView extends BaseView {
 
     public getActions(): RailIconActions {
         return {};
+    }
+
+    public getIconView() {
+        return this.renderer;
+    }
+
+    public open() {
+        this.modal.show({
+            content: new GoogleCalendarView(),
+            size: 'large',
+        });
+    }
+
+    public close() {
+        this.modal.close();
     }
 }

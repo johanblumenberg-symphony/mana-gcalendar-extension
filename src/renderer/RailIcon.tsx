@@ -1,10 +1,14 @@
 import * as React from 'react';
+import { withStyles, WithStyles } from '@material-ui/core/styles';
+import styles from './styles';
 
 export interface RailIconProps { }
 export interface RailIconActions { }
 
-export class RailIcon extends React.Component<RailIconProps & RailIconActions> {
+class RailIcon extends React.Component<RailIconProps & RailIconActions & WithStyles<typeof styles>> {
     public render() {
-        return <div>X</div>;
+        return <div title='Google Calendar' className={this.props.classes.icon}>X</div>;
     }
 }
+
+export default withStyles(styles)(RailIcon);
