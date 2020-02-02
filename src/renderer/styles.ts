@@ -12,5 +12,10 @@ export default (theme: Theme) =>
           '&:hover': {
             backgroundColor: '#333353',
           }
+      },
+
+      container: {
+          height: 500,
+          padding: 20,
       }
   });
