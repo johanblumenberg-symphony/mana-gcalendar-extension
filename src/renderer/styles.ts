@@ -8,6 +8,9 @@ export default (theme: Theme) =>
           margin: '12px 0',
           borderRadius: 8,
           color: 'white',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
 
           '&:hover': {
             backgroundColor: '#333353',
@@ -15,7 +18,18 @@ export default (theme: Theme) =>
       },
 
       container: {
-          height: 500,
+          height: '90vh',
+          width: '70vw',
           padding: 20,
-      }
+      },
+
+      signin: {
+        position: 'absolute',
+        left: 10,
+        bottom: 10,
+        padding: 10,
+        backgroundColor: '#FFFFFFC0',
+        border: '1px solid gray',
+        borderRadius: 4,
+      },
   });

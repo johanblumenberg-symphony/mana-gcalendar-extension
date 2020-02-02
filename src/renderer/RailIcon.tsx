@@ -7,7 +7,7 @@ export interface RailIconActions { }
 
 class RailIcon extends React.Component<RailIconProps & RailIconActions & WithStyles<typeof styles>> {
     public render() {
-        return <div title='Google Calendar' className={this.props.classes.icon}>X</div>;
+        return <div title='Google Calendar' className={this.props.classes.icon}>GC</div>;
     }
 }
 

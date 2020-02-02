@@ -31,7 +31,7 @@ export class RailIconView implements interfaces.rail.IRailItem {
     public open() {
         this.modal.show({
             content: new GoogleCalendarView(),
-            size: 'large',
+            size: 'auto',
         });
     }
 
