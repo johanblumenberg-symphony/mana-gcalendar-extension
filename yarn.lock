@@ -2746,11 +2746,6 @@ code-point-at@^1.0.0:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-coffee-script@*:
-  version "1.12.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
-  integrity sha1-wF2uDLeVkdBbMHCoQzqYyaiczFM=
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -4103,13 +4098,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
-
-gapi@^0.0.3:
-  version "0.0.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/gapi/-/gapi-0.0.3.tgz#bc20e9521ad01f4a42d69f8e0060c9b4bae344f4"
-  integrity sha1-vCDpUhrQH0pC1p+OAGDJtLrjRPQ=
-  dependencies:
-    coffee-script "*"
 
 gauge@~1.2.5:
   version "1.2.7"
@@ -9009,9 +8997,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 webworkify@1.3.0:
   version "1.3.0"
