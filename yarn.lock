@@ -2746,11 +2746,6 @@ code-point-at@^1.0.0:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-coffee-script@*:
-  version "1.12.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
-  integrity sha1-wF2uDLeVkdBbMHCoQzqYyaiczFM=
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -3290,9 +3285,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/dns-packet/-/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha1-EqpCaYEHW+UAuRDu3NC0fdfe2lo=
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -4103,13 +4098,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
-
-gapi@^0.0.3:
-  version "0.0.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/gapi/-/gapi-0.0.3.tgz#bc20e9521ad01f4a42d69f8e0060c9b4bae344f4"
-  integrity sha1-vCDpUhrQH0pC1p+OAGDJtLrjRPQ=
-  dependencies:
-    coffee-script "*"
 
 gauge@~1.2.5:
   version "1.2.7"
@@ -7641,9 +7629,9 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
 
 safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
-  version "5.2.0"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
-  integrity sha1-t02uxJsRSPiMZLaNSbHoFcHy9Rk=
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-buffer@~5.0.1:
   version "5.0.1"
