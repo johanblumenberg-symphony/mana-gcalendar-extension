@@ -2472,9 +2472,9 @@ bser@2.1.1:
     node-int64 "^0.4.0"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -2745,11 +2745,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
-
-coffee-script@*:
-  version "1.12.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
-  integrity sha1-wF2uDLeVkdBbMHCoQzqYyaiczFM=
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -4103,13 +4098,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
-
-gapi@^0.0.3:
-  version "0.0.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/gapi/-/gapi-0.0.3.tgz#bc20e9521ad01f4a42d69f8e0060c9b4bae344f4"
-  integrity sha1-vCDpUhrQH0pC1p+OAGDJtLrjRPQ=
-  dependencies:
-    coffee-script "*"
 
 gauge@~1.2.5:
   version "1.2.7"
@@ -8011,9 +7999,9 @@ source-map-support@^0.4.15:
     source-map "^0.5.6"
 
 source-map-support@^0.5.16, source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha1-CuBp5/47p1OMZMmFFeNTOerFoEI=
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -8416,9 +8404,9 @@ terser-webpack-plugin@^1.1.0:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.6.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/terser/-/terser-4.6.3.tgz#e33aa42461ced5238d352d2df2a67f21921f8d87"
-  integrity sha1-4zqkJGHO1SONNS0t8qZ/IZIfjYc=
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
