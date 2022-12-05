@@ -2746,11 +2746,6 @@ code-point-at@^1.0.0:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-coffee-script@*:
-  version "1.12.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
-  integrity sha1-wF2uDLeVkdBbMHCoQzqYyaiczFM=
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -3149,9 +3144,9 @@ decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -4103,13 +4098,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
-
-gapi@^0.0.3:
-  version "0.0.3"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/gapi/-/gapi-0.0.3.tgz#bc20e9521ad01f4a42d69f8e0060c9b4bae344f4"
-  integrity sha1-vCDpUhrQH0pC1p+OAGDJtLrjRPQ=
-  dependencies:
-    coffee-script "*"
 
 gauge@~1.2.5:
   version "1.2.7"
